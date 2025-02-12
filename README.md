@@ -52,4 +52,4 @@ Finally, run the following command to start the frontend development server.
 pnpm dev
 ```
 
-Open the browser and navigate to <http://localhost:5173/>. Click on the gear icon to open the settings and enter your API key.
+Open the browser and navigate to <http://localhost:5173/>.
