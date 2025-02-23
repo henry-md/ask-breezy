@@ -16,6 +16,7 @@ import type {
 import type * as chats from "../chats.js";
 import type * as messages from "../messages.js";
 import type * as openai from "../openai.js";
+import type * as weather from "../weather.js";
 
 /**
  * A utility for referencing Convex functions in your app's API.
@@ -29,6 +30,7 @@ declare const fullApi: ApiFromModules<{
   chats: typeof chats;
   messages: typeof messages;
   openai: typeof openai;
+  weather: typeof weather;
 }>;
 export declare const api: FilterApi<
   typeof fullApi,
